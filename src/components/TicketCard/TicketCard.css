@@ -1,0 +1,75 @@
+.ticket-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .ticket-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .ticket-id {
+    color: #6b6b6b;
+    font-size: 0.9em;
+  }
+  
+  .avatar {
+    width: 24px;
+    height: 24px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+  }
+  
+  .ticket-title {
+    font-size: 0.95em;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .ticket-footer {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .tag {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 8px;
+    background-color: #f4f5f8;
+    border-radius: 4px;
+    font-size: 0.8em;
+    color: #6b6b6b;
+  }
+  
+  .priority-tag {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+  
+  .priority-icon {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+  }
+  
+  .status-icon {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+  }

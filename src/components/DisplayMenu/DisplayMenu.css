@@ -1,0 +1,34 @@
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+    min-width: 280px;
+  }
+  
+  .menu-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+  }
+  
+  .menu-row span {
+    color: #8D8D8D;
+    font-size: 15px;
+  }
+  
+  .menu-row select {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    min-width: 120px;
+    font-size: 15px;
+    cursor: pointer;
+  }
